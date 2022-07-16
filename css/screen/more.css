@@ -1,0 +1,29 @@
+.suggetion-box {
+  padding-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: powderblue;
+}
+.suggetion-box__title {
+  margin-bottom: 20px;
+}
+.suggetion-box__icons {
+  display: flex;
+  align-items: center;
+}
+.suggetion-box__icons img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+.suggetion-box__icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.suggetion-box__icons span {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}

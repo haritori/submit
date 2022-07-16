@@ -1,0 +1,21 @@
+.setting-list {
+  padding: 10px 0px;
+}
+.setting__line {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.setting__line-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.setting__line-text i {
+  margin-right: 10px;
+}
+.setting-version {
+  opacity: 0.5;
+}

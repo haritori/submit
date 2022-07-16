@@ -1,0 +1,23 @@
+.other-header {
+  display: flex;
+  padding: var(--padding);
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.other-header__column {
+  width: 33%;
+}
+.other-header__title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.other-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+.other-header__column:last-child i {
+  margin-left: 25px;
+}
