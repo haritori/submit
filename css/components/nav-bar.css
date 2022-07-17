@@ -24,3 +24,19 @@
   bottom: 20px;
   left: 20px;
 }
+
+@keyframes moveicons {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: none;
+  }
+}
+.nav__btn i:hover,
+.nav__btn .nav__noti {
+  animation: moveicons 1.5s ease-in-out infinite;
+}

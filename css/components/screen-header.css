@@ -28,19 +28,3 @@
 .screen-header__icons .fa-gear:hover {
   animation: rotategear 1.5s linear infinite;
 }
-
-@keyframes moveicons {
-  0% {
-    transform: none;
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: none;
-  }
-}
-.nav__btn i:hover,
-.nav__btn .nav__noti {
-  animation: moveicons 1.5s ease-in-out infinite;
-}
